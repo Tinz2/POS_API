@@ -19,8 +19,8 @@
     "typescript": "^5.5.4"
   },
   "scripts": {
-    "start": "node server.js",  // เปลี่ยนเป็น server.js
-    "dev": "node server.js",    // ถ้าต้องการรันใน Development
+    "start": "node server.js",
+    "dev": "node server.js", 
     "prisma:generate": "prisma generate",
     "prisma:migrate": "prisma migrate deploy",
     "prestart": "npm run prisma:generate && npm run prisma:migrate"
